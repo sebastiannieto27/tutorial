@@ -28,6 +28,8 @@ public class conexion {
         try {
            Class.forName("org.postgresql.Driver");
            conection=DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres?user=postgres&password=123456");
+        } catch (SQLException e) {
+            throw e;
         } catch (Exception e) {
             throw e;
         }
