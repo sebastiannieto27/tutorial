@@ -7,46 +7,37 @@
 
 ## Requiremnents
 
-* PHP >= 5.6.4
-* OpenSSL PHP Extension
-* PDO PHP Extension
-* Mbstring PHP Extension
-* Tokenizer PHP Extension
-* XML PHP Extension
+* MySQL 5.7                        
+* PHP 5.6                        
+* Symfony Framework 3                        
+* PhpUnit 6                        
+* Doctrine 2.3
 
 
 
 ## Installing
 
-Once you have cloned the project on your pc you should have a folder with named backend-test
-open your favorite text editor and edit the file .env using your mysql credentials
+* MySQL: create a database named **Umsjobappdb**, and execute the following scripts:
+<pre>
+	tables creation scripts...
+</pre>
+	Also make sure you have configured MySQL like this:
 <pre>
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=backend-test
+DB_DATABASE=Umsjobappdb
 DB_USERNAME='user'
-DB_PASSWORD='secret password'
+DB_PASSWORD='mysql-password-modify this line'
 </pre>
+
+Source files: Please clone this repo (git clone https://github.com/fabiancnieto/job_a-p-p_c-l-i-c-kd-eliv.git)
 
 then open a terminal and type 
 
 <pre>
-  cd backend-test
+  cd job_a-p-p_c-l-i-c-kd-eliv
 </pre>
 
-then migrate the database tables running at terminal
-<pre>
-php artisan migrate --seed
-</pre>
-finally all you need to do is run laravel server in your terminal type
-
-<pre>
-php artisan serve 
-</pre>
-default port is 8000  if you want to use the port 80 you should type
-<pre>
-
-php artisan serve --port=80</pre>
 
 ## External libs used
 * Adminlte for serve css style a js feature
