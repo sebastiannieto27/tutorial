@@ -21,7 +21,9 @@
 <pre>
 	tables creation scripts...
 </pre>
-	Also make sure you have configured MySQL like this:
+
+Also make sure you have configured MySQL like this:
+
 <pre>
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -40,9 +42,7 @@ then open a terminal and type
 
 
 ## External libs used
-* Adminlte for serve css style a js feature
-* Jquery Validator for Front validations forms
-* Bootstrap
+* Add libs here
 ## License
 
 The Laravel framework and this project is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
