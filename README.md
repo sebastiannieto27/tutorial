@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="http://www.panamericanworld.com/es/system/files/clickdelivery_0.png">
+  <img src="click-delivery.png">
 </p>
 
 <p align="center">
